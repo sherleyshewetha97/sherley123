@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="161162" started-at="2020-07-17T23:32:09 PDT" finished-at="2020-07-17T23:34:50 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="161162" started-at="2020-07-17T23:32:09 PDT" finished-at="2020-07-17T23:34:50 PDT">
+      <class name="selenium.AddtoCart">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:selenium.AddtoCart@4b4523f8]" name="testSetup" is-config="true" duration-ms="5853" started-at="2020-07-17T23:32:09 PDT" finished-at="2020-07-17T23:32:15 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:selenium.AddtoCart@4b4523f8]" name="openBrowser" is-config="true" duration-ms="13962" started-at="2020-07-17T23:32:15 PDT" finished-at="2020-07-17T23:32:29 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Cart()[pri:0, instance:selenium.AddtoCart@4b4523f8]" name="Cart" duration-ms="37813" started-at="2020-07-17T23:32:29 PDT" description="This method tests the add to cart functionality" finished-at="2020-07-17T23:33:07 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cart -->
+      </class> <!-- selenium.AddtoCart -->
+      <class name="selenium.LoginTest">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:selenium.LoginTest@731a74c]" name="testSetup" is-config="true" duration-ms="4774" started-at="2020-07-17T23:33:07 PDT" finished-at="2020-07-17T23:33:11 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:selenium.LoginTest@731a74c]" name="openBrowser" is-config="true" duration-ms="12214" started-at="2020-07-17T23:33:11 PDT" finished-at="2020-07-17T23:33:24 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:selenium.LoginTest@731a74c]" name="login" duration-ms="11572" started-at="2020-07-17T23:33:24 PDT" description="This method tests the login functionality" finished-at="2020-07-17T23:33:35 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- selenium.LoginTest -->
+      <class name="selenium.SignUpTest">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:selenium.SignUpTest@369f73a2]" name="testSetup" is-config="true" duration-ms="4762" started-at="2020-07-17T23:33:35 PDT" finished-at="2020-07-17T23:33:40 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:selenium.SignUpTest@369f73a2]" name="openBrowser" is-config="true" duration-ms="13010" started-at="2020-07-17T23:33:40 PDT" finished-at="2020-07-17T23:33:53 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="signUp()[pri:0, instance:selenium.SignUpTest@369f73a2]" name="signUp" duration-ms="13995" started-at="2020-07-17T23:33:53 PDT" description="This method tests the sign up functionality" finished-at="2020-07-17T23:34:07 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+      </class> <!-- selenium.SignUpTest -->
+      <class name="selenium.SearchTest">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:selenium.SearchTest@1f28c152]" name="testSetup" is-config="true" duration-ms="6399" started-at="2020-07-17T23:34:07 PDT" finished-at="2020-07-17T23:34:13 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:selenium.SearchTest@1f28c152]" name="openBrowser" is-config="true" duration-ms="11624" started-at="2020-07-17T23:34:13 PDT" finished-at="2020-07-17T23:34:25 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="productSearch()[pri:0, instance:selenium.SearchTest@1f28c152]" name="productSearch" duration-ms="25130" started-at="2020-07-17T23:34:25 PDT" description="This method tests the search functionality" finished-at="2020-07-17T23:34:50 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearch -->
+      </class> <!-- selenium.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
