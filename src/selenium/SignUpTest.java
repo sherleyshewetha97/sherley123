@@ -39,8 +39,14 @@ public class SignUpTest {
 	public void signUp()
 	{
 	driver.findElement(By.linkText("Sign in")).click();
-	  driver.findElement(By.id("email_create")).sendKeys("huyoiuolklpppppp@gmail.com");
+	  driver.findElement(By.id("email_create")).sendKeys("sherl@gmail.com");
 	driver.findElement(By.id("SubmitCreate")).click();
+	try {
+		 String error=driver.findElement(By.xpath("//*[@id=\"create_account_error\"]/ol/li")).getText();
+		 System.out.println(error);
+	}catch(Exception e) {
+		System.out.println(e.getMessage());
+
 
 
 	  driver.findElements(By.xpath("//input[@name='id_gender']")).get(1).click();
@@ -49,6 +55,7 @@ public class SignUpTest {
 	driver.findElement(By.id("passwd")).sendKeys("Sherley@#97");
 		
 	driver.findElement(By.id("firstname")).sendKeys("Sherley");
+		
 	driver.findElement(By.id("lastname")).sendKeys("Shewetha");
 	driver.findElement(By.id("company")).sendKeys("BNP Paribas");
 	driver.findElement(By.id("address1")).sendKeys("38/81, Maddox Street");
@@ -72,11 +79,12 @@ public class SignUpTest {
 
 		
 		  if(userText.contains("Sherley")) {
-		System.out.println("User Verified,Test case Passed");
+		System.out.println("User has been Verified,Test case Passed");
 		  }
 		  else {
-		System.out.println("User Verification Failed,Test case Failed");
+		System.out.println("User Verification has Failed,Test case Failed");
 		  }
+	}
 		  driver.close();
 		
 	}
